@@ -9,7 +9,8 @@ Some things to note..
 * I'm working to add the acknowledgements to the new theme. There's two options for this: either have it in the header like we did before, or have it in a nice-looking box near the footer of the page.
 * Since this is a completely new installation, none of the old pages exist on this site. However, it's very easy to copy over old content, and I've already copied over the "about" section of the website.
 
-## Todo List ## *(List any issues or features that you would like to add to the new website)*
+## Todo List
+*(List any issues or features that you would like to add to the new website)*
 
 * Add acknowledgments to theme
 * Change "BBC Core" to "BB Core" (haha)
