@@ -1,0 +1,7 @@
+    <div class="span3" id="sidebar">
+      <div class="well">
+        <ul class="nav nav-list">
+          {geeklog_blocks}
+        </ul>
+      </div>
+    </div>

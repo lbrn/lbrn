@@ -1,0 +1,17 @@
+#sidebar {
+  min-height: 500px;
+}
+
+header {
+  padding-bottom: 20px !important;
+}
+
+article {
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: .8em;
+}
