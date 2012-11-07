@@ -1,3 +1,0 @@
-    <span itemprop="title">{name}</span> {separator}
-{breadcrumb_child}
-

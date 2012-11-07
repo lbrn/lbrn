@@ -1,9 +1,0 @@
-    </div> <!-- /centerblocks -->
-    {right_blocks}
-  </div> <!-- /row -->
-  <footer class="row well well-small">
-     <p class="muted">Copyright © 2012 {site_name}</p>
-     <p class="muted">All trademarks and copyrights on this page are owned by their respective owners.</p>
-  </footer>
-</body>
-</html>

@@ -1,5 +1,0 @@
-<a href="{url}" itemprop="url">
-    <span itemprop="title">{name}</span>
-</a> {separator}
-{breadcrumb_child}
-
