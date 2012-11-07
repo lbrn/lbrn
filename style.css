@@ -1,0 +1,427 @@
+#sp-editor-sp_content {
+}
+
+
+#sidebar {
+  min-height: 500px;
+}
+
+header {
+  padding-bottom: 20px !important;
+}
+
+article {
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 20px;
+}
+
+#logos {
+  display: inline-block;
+  float: left;
+  padding-right: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: .8em;
+}
+
+
+/* Table */
+.admin-list-table {
+  margin: 0;
+  width: 100%;
+  text-align: right; /* rtl */
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: none;
+  font-size: 90%;
+}
+
+.admin-list-table tr {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.admin-list-table th,
+.admin-list-table td {
+  vertical-align: middle;
+  line-height: 1.1em;
+  height: 2.3em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: none;
+}
+
+.admin-list-table th {
+  background-color: #DAE0ED;
+}
+
+.admin-list-table img {
+  vertical-align: middle;
+}
+
+/* Navigation */
+.admin-list-navi {
+  margin-top: 0.5em;
+}
+
+/* Message */
+.admin-list-message {
+  margin: 1em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.admin-list-search {
+  text-align: center;
+  margin: 0.5em 0;
+}
+.admin-list-search:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+.admin-list-smalltable {
+  margin: 0 0 0.5em 0;
+  border-collapse: separate;
+  border-spacing: 1px;
+  font-size: 13px;
+}
+
+.admin-list-headerfield {
+  padding: 4px;
+}
+
+.admin-list-field {
+  padding: 4px;
+  text-align: left;
+}
+
+.admin-list-field a {
+  padding: 4px 6px;
+}
+
+.search-part {
+  display: inline-block;
+  margin-left: 5px; /* rtl */
+  white-space: nowrap;
+}
+
+/*--------------------------------------
+  Permission Style
+--------------------------------------*/
+
+#admin-permissions {
+  margin: 0 0 0.5em 0;
+  border-collapse: separate;
+  border-spacing: 1px;
+  font-size: 13px;
+}
+
+#admin-permissions th {
+  border: none;
+  background-color: #DAE0ED;
+  font-weight: bold;
+  text-align: center;
+  padding: 4px;
+}
+
+#admin-permissions td {
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 4px;
+}
+
+/*--------------------------------------
+  Moderation Page
+--------------------------------------*/
+
+#admin-moderation {
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#admin-moderation li {
+  float: right; /* rtl */
+  width: 12.5%;
+  height: 8em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#admin-moderation a {
+  display: block;
+  font-size: 90%;
+  margin: 5px 0;
+}
+
+/*--------------------------------------
+  Plugin Page
+--------------------------------------*/
+
+#admin-editor #title {
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+
+/* Used by lib-plugin.php to display dependencies */
+b.notbold { /* hack for HTML compliance inside tooltips */
+  font-weight: normal;
+}
+
+b.status_red {
+  display: inline;
+  color: #a40000;
+}
+
+b.status_orange {
+  display: inline;
+  color: #b25000;
+}
+
+b.status_green {
+  display: inline;
+  color: #3d7805;
+}
+
+b.status_black {
+  display: inline;
+  color: black;
+}
+
+/*--------------------------------------
+  Story Editor
+--------------------------------------*/
+
+.story_editor {
+  margin: 0 0 1em 0;
+  padding: 8px;
+  border: 1px solid #CCC;
+}
+
+.story_editor dl {
+  margin-bottom: 0;
+}
+
+.story_editor dt {
+  width: 14%;
+}
+
+.story_editor dd {
+  width: 85%;
+}
+
+#text_editor dd.description {
+  margin-right: 15%; /* rtl */
+}
+
+#admin-storyeditor-introtext,
+#admin-storyeditor-bodytext {
+  width: 98%;
+}
+
+/* Preview */
+#preview {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-top: 1px solid #CCC;
+  border-bottom: none;
+}
+
+/*--------------------------------------
+  Topic Editor
+--------------------------------------*/
+
+/* TopicList */
+#admin-topiclist {
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#admin-topiclist li {
+  float: right; /* rtl */
+  width: 20%;
+  height: 8em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#admin-topiclist a {
+  display: block;
+}
+
+/*--------------------------------------
+  Trackback
+--------------------------------------*/
+
+.trackback-message {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+/*--------------------------------------
+  User Editor
+--------------------------------------*/
+
+/* User Images */
+.userphoto {
+  margin: 0.5em 0 0 0.5em; /* rtl */
+}
+
+/* Security Group Instructions */
+.groupinstructions {
+  margin: 0 0 0.5em 0;
+}
+
+/*--------------------------------------
+  Reminder
+--------------------------------------*/
+
+#reminder-submit {
+  margin: 0.5em 0;
+}
+
+#config_menu {
+  float: right; /* rtl */
+  width: 280px;
+  padding: 0 10px;
+}
+body.center-right #config_menu {
+  width: 200px;
+}
+
+.block-config,
+#search-configuration-container {
+  margin: 0 0 0.5em;
+  padding: 8px 0;
+  text-align: right; /* rtl */
+}
+
+.block-config-title,
+#search-configuration-container label {
+  margin: 0 0 0.5em 0;
+  padding: 0 0 0.1em 0;
+  display: block;
+  border-bottom: 1px solid #CCC;
+  font-size: 105%;
+  font-weight: bold;
+}
+
+.block-config-content {
+  padding-right: 5px; /* rtl */
+}
+
+.configoption {
+  list-style: none outside;
+  color: #999;
+  margin: 0;
+  padding: 0;
+}
+
+.configoption_off {
+  list-style: none outside;
+  color: #999;
+  display: block;
+  height: 2.3em;
+  line-height: 2.3em;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 5px;
+  white-space: nowrap;
+}
+
+.configoption a {
+  display: block;
+  color: #222;
+  height: 2.3em;
+  line-height: 2.3em;
+  overflow: hidden;
+  padding: 0 5px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.configoption a:hover {
+  background-color: #F1F1F1;
+}
+
+#config_content {
+  float: right; /* rtl */
+  width: 820px;
+  padding: 10px;
+}
+body.center-right #config_content {
+  width: 600px;
+}
+
+#geeklog_config_editor:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+#config_main {
+  width: 100%;
+}
+
+#search-configuration {
+  width: 90%;
+  margin: 10px 5px 10px 0; /* rtl */
+}
+
+.inputTable {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.config_label {
+  float: right; /* rtl */
+  width: 35%;
+  padding: .5em 0;
+}
+
+.restore {
+  padding: .5em 0;
+}
+
+.config_input {
+  float: right; /* rtl */
+  width: 53%;
+  
+}
+
+.config_name {
+  clear: right; /* rtl */
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.config_name input[type="text"],
+.config_name textarea {
+  width: 53%;
+}
+.config_name select {
+  width: 54.5%;
+  max-width: none;
+}
+
+.admin-table-changer {
+  display: none;
+}

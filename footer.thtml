@@ -1,0 +1,45 @@
+    </div> <!-- /centerblocks -->
+    {right_blocks}
+  </div> <!-- /row -->
+  <footer class="well well-small">
+     <p class="pull-right">Copyright &copy; 2012-2013 {site_name}</p>
+     <div id="logos">
+       <img src="{site_url}/images/nigms.png" height="40px">
+       <img src="{site_url}/images/nih.gif" height="40px" width="40px">
+     </div>
+     <p>Support from the National Institutes of Health through the National Center for Reseach Resources Grant 5P20RR016456 and <br>National Institute of General Medical Sciences 8P20GM103424 is gratefully acknowledged</p>
+  </footer>
+  <link rel="stylesheet" type="text/css" href="{layout_url}/css/bootstrap-wysihtml5.css">
+  <script src="{layout_url}/js/wysihtml5.js"></script>
+  <script src="{layout_url}/js/bootstrap-wysihtml5.js"></script>
+  <script>
+    $('#sp-editor-sp_content').wysihtml5({
+	"font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+	"emphasis": true, //Italics, bold, etc. Default true
+	"lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+	"html": true, //Button which allows you to edit the generated HTML. Default false
+	"link": true, //Button to insert a link. Default true
+	"image": true, //Button to insert an image. Default true,
+	"color": true //Button to change color of font  
+    });
+    $('#admin-storyeditor-introtext').wysihtml5({
+	"font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+	"emphasis": true, //Italics, bold, etc. Default true
+	"lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+	"html": true, //Button which allows you to edit the generated HTML. Default false
+	"link": true, //Button to insert a link. Default true
+	"image": true, //Button to insert an image. Default true,
+	"color": true //Button to change color of font  
+    });
+    $('#admin-storyeditor-bodytext').wysihtml5({
+	"font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
+	"emphasis": true, //Italics, bold, etc. Default true
+	"lists": true, //(Un)ordered lists, e.g. Bullets, Numbers. Default true
+	"html": true, //Button which allows you to edit the generated HTML. Default false
+	"link": true, //Button to insert a link. Default true
+	"image": true, //Button to insert an image. Default true,
+	"color": true //Button to change color of font  
+    });
+  </script>
+</body>
+</html>

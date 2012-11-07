@@ -1,0 +1,5 @@
+<article class="span8">
+  <h3>{story_title}</h3>
+  <p class="muted">{story_date}</p>
+  {story_text_no_br}
+</article>
