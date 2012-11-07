@@ -1,60 +1,31 @@
+This is a modern theme for Geeklog CMS by Taylor Lapeyre, based on Denim by Yoshinori Tahara.
 
-// +---------------------------------------------------------------------------+
-// | Geeklog 2.0                                                               |
-// +---------------------------------------------------------------------------+
-// | Denim Geeklog Theme                                                       |
-// +---------------------------------------------------------------------------+
-// | Copyright (C) 2012 by the following authors:                              |
-// |                                                                           |
-// | Authors: Yoshinori Tahara - taharaxp AT gmail DOT com                     |
-// |                                                                           |
-// | Denim theme is based on prior work by:                                    |
-// | Authors: Fumito Arakawa   - http://phize.net/                             |
-// |          Tetsuko Konma    - http://www.ivywe.co.jp/                       |
-// |          Geeklog Japanese - http://www.geeklog.jp/                        |
-// +---------------------------------------------------------------------------+
-// |                                                                           |
-// | This program is free software; you can redistribute it and/or             |
-// | modify it under the terms of the GNU General Public License               |
-// | as published by the Free Software Foundation; either version 2            |
-// | of the License, or (at your option) any later version.                    |
-// |                                                                           |
-// | This program is distributed in the hope that it will be useful,           |
-// | but WITHOUT ANY WARRANTY; without even the implied warranty of            |
-// | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the             |
-// | GNU General Public License for more details.                              |
-// |                                                                           |
-// | You should have received a copy of the GNU General Public License         |
-// | along with this program; if not, write to the Free Software Foundation,   |
-// | Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.           |
-// |                                                                           |
-// +---------------------------------------------------------------------------+
+This theme was built for the website of the Louisiana Biomedical Research Network, and has
+code that is explicitly for this network. For the moment, this is not a general Geeklog theme.
+A beta version of the site can be found here: http://test.lbrn.lsu.edu/
 
+This theme uses the following frameworks and services:
+  - Bootstrap          : http://twitter.github.com/bootstrap/
+  - bootstrap-wysihtml : https://github.com/jhollingworth/bootstrap-wysihtml5/
+  - Symbolset          : https://symbolset.com/
 
-/*==============================================================================
-  Pofile
-==============================================================================*/
+The basic structure of the theme goes soemthing like this:
 
-Geeklog theme using XHTML 1.0 Transitional + CSS 2.0 and eliminate table tags.
-This theme is adopted the Responsive Web Design.
-This theme is mobile friendly.
+header.thtml:
+  <header>
+  <nav>
 
+leftblocks.thtml:
+  <div.hero-unit>
 
-/*==============================================================================
-  Basic Markup
-==============================================================================*/
+centerblocks, etc.thml:
+  <div.span9>
+    <article.row>
+    ...
 
-Basic markup is following:
-
-<div id="container">
-    <div id="header">Header</div>
-    <div id="navigation">Navigation</div>
-    <div id="wrapper">
-        <div id="centerblocks">
-            <div id="main-content">Main Content</div>
-        </div>
-        <div id="leftblocks">Left Blocks</div>
-        <div id="rightblocks">Right Blocks</div>
-    </div>
-    <div id="footer">Footer</div>
-</div>
+footer.thtml:
+  rightblocks.thtml:
+  <div#sidebar.span3>
+    <ul.nav-list>
+     ...
+  <footer>
