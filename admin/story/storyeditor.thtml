@@ -146,7 +146,7 @@
       <dd>
         <select name="postmode" id="admin-storyeditor-postmode">
           {post_options}
-        </select> <span class="label label-info">You'll probably want this to be "Formatted HTML"</span>
+        </select> <span class="label label-info">You'll probably want this to be "HTML Formatted"</span>
       </dd>
       <dd class="description">{lang_allowed_html}</dd>
 
