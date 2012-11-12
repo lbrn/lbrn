@@ -8,7 +8,7 @@ This theme uses the following frameworks and services:
   - [bootstrap-wysihtml](https://github.com/jhollingworth/bootstrap-wysihtml5/)
   - [Symbolset](https://symbolset.com/)
 
-The basic structure of the theme goes soemthing like this:
+The basic structure of the theme goes something like this:
 
     header.thtml:
       <header>
