@@ -296,8 +296,8 @@ b.status_black {
 }
 
 #config_menu {
-  float: right; /* rtl */
-  width: 280px;
+  /*float: right; (rtl) */
+  /*width: 280px;*/
   padding: 0 10px;
 }
 body.center-right #config_menu {
@@ -381,7 +381,7 @@ body.center-right #config_content {
 }
 
 #search-configuration {
-  width: 90%;
+  /*width: 90%;*/
   margin: 10px 5px 10px 0; /* rtl */
 }
 
