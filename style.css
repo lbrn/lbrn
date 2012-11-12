@@ -2,6 +2,12 @@
   font-family: monospace;
 }
 
+#tabs {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
 #sidebar {
   min-height: 500px;
 }
