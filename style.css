@@ -2,9 +2,10 @@
   font-family: monospace;
 }
 
-#tabs {
+#tabs ul { list-style: none; }
+
+#tabs ul li {
   display: inline;
-  list-style-type: none;
   padding-right: 20px;
 }
 
