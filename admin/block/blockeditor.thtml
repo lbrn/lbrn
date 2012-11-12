@@ -1,3 +1,5 @@
+<link href="{layout_url}/css/denim.css" rel="stylesheet">
+
 <!-- admin/block/blockeditor.thtml { -->
 
 {start_block_editor}
